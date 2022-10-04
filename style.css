@@ -1,0 +1,29 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #213547;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.myForm__nombre {
+  color: #213547;
+  padding: 0.4em;
+}
+.myForm__nombre:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+#app{
+  --color-principal: red;
+}
+
